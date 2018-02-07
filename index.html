@@ -48,25 +48,33 @@
                     </div>
                     <form role="form" class="form-horizontal m-t">
                         <div class="form-group draggable">
-                            <h1 align="center">标题</h1>
+                            <h1 align="center">标题H1</h1>
                         </div>
                         <div class="form-group draggable">
-                            <p align="center">段落</p>
+                            <p align="center">段落P</p>
                         </div>
                         <div class="form-group draggable">
-                            <label  class="col-sm-5 text-right">带下划线的表单：</label>
+                            <label  class="col-sm-5 text-right">带下划线的Input：</label>
                             <div class="col-sm-7 text-left"><input type="text" style="border:0px;border-bottom:#000 1px solid; margin-bottom:2px;width:250px;display:inline;line-height:2em;height:2em;" /></div>
                         </div>
                         <div class="form-group draggable">
-                            <label class="col-sm-3 control-label">文件域：</label>
-                            <div class="col-sm-9">
-                                <input type="file" name="" class="form-control">
-                            </div>
+                            <label  class="col-sm-5 text-right">无边框的Input：</label>
+                            <div class="col-sm-7 text-left"><input type="text" style="border:0px;margin-bottom:2px;width:250px;display:inline;line-height:2em;height:2em;" /></div>
                         </div>
                         <div class="form-group draggable">
                             <table style="width:100%;">
                                 <tr>
-                                    <td style="font-size:14px;background-color:#fff;  border: 1px solid #000;max-width:200px;width:150px;text-align:center;"><p>测试标题</p></td>
+                                    <td style="font-size:14px;background-color:#fff;  border: 1px solid #000;max-width:200px;width:150px;text-align:center;"><p>简单表格</p></td>
+                                    <td style="font-size:14px;text-align:left;vertical-align:bottom;border: 1px solid #000;"><input type="text" style="border:0px; border-bottom:#000 0px solid; margin-bottom:2px;width:99%;" /></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="form-group draggable">
+                            <table style="width:100%;">
+                                <tr>
+                                    <td style="font-size:14px;background-color:#fff;  border: 1px solid #000;max-width:200px;width:150px;text-align:center;"><p>4列标题</p></td>
+                                    <td style="font-size:14px;text-align:left;vertical-align:bottom;border: 1px solid #000;"><input type="text" style="border:0px; border-bottom:#000 0px solid; margin-bottom:2px;" /></td>
+                                    <td style="font-size:14px;background-color:#fff;  border: 1px solid #000;max-width:200px;width:150px;text-align:center;"><p>4列标题</p></td>
                                     <td style="font-size:14px;text-align:left;vertical-align:bottom;border: 1px solid #000;"><input type="text" style="border:0px; border-bottom:#000 0px solid; margin-bottom:2px;" /></td>
                                 </tr>
                             </table>
@@ -74,16 +82,14 @@
                         <div class="form-group draggable">
                             <table style="width:100%;">
                                 <tr>
-                                    <td style="font-size:14px;background-color:#fff;  border: 1px solid #000;max-width:200px;width:150px;text-align:center;"><p>测试标题</p></td>
+                                    <td style="font-size:14px;background-color:#fff;  border: 1px solid #000;max-width:200px;width:150px;text-align:center;"><p>6列标题</p></td>
                                     <td style="font-size:14px;text-align:left;vertical-align:bottom;border: 1px solid #000;"><input type="text" style="border:0px; border-bottom:#000 0px solid; margin-bottom:2px;" /></td>
-                                    <td style="font-size:14px;background-color:#fff;  border: 1px solid #000;max-width:200px;width:150px;text-align:center;"><p>测试标题</p></td>
+                                    <td style="font-size:14px;background-color:#fff;  border: 1px solid #000;max-width:200px;width:150px;text-align:center;"><p>6列标题</p></td>
+                                    <td style="font-size:14px;text-align:left;vertical-align:bottom;border: 1px solid #000;"><input type="text" style="border:0px; border-bottom:#000 0px solid; margin-bottom:2px;" /></td>
+                                    <td style="font-size:14px;background-color:#fff;  border: 1px solid #000;max-width:200px;width:150px;text-align:center;"><p>6列标题</p></td>
                                     <td style="font-size:14px;text-align:left;vertical-align:bottom;border: 1px solid #000;"><input type="text" style="border:0px; border-bottom:#000 0px solid; margin-bottom:2px;" /></td>
                                 </tr>
                             </table>
-                        </div>
-                        <div class="form-group draggable">
-                            （500字以内）
-                            <textarea id="textarea" label="项目落地情况" style="height:10em;" name="textarea" rows="10" cols="20" size="75" itemtype="2" stype="yes" maxlength="4000" title="孵化企业案例"></textarea>
                         </div>
                     </form>
                     <div class="clearfix"></div>
@@ -94,13 +100,6 @@
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
                     <h5>拖拽左侧表单元素到此区域</h5>
-                    <div class="ibox-tools">
-                        请选择显示的列数：
-                        <select id="n-columns">
-                            <option value="1">显示1列</option>
-                            <option value="2">显示2列</option>
-                        </select>
-                    </div>
                 </div>
 
                 <div class="ibox-content">
@@ -112,7 +111,7 @@
                         <div class="col-md-6 droppable sortable" style="display: none;">
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-warning" data-clipboard-text="testing" id="copy-to -clipboard">复制代码</button>
+                    <button type="submit" class="btn btn-warning" data-clipboard-text="testing" id="copy-to-clipboard">复制代码</button>
                 </div>
             </div>
         </div>
@@ -124,7 +123,107 @@
 <script src="js/jquery-ui-1.10.4.min.js"></script>
 <script src="js/plugins/beautifyhtml/beautifyhtml.js"></script>
 <script>
-    $(document).ready(function(){setup_draggable();$("#n-columns").on("change",function(){var v=$(this).val();if(v==="1"){var $col=$(".form-body .col-md-12").toggle(true);$(".form-body .col-md-6 .draggable").each(function(i,el){$(this).remove().appendTo($col)});$(".form-body .col-md-6").toggle(false)}else{var $col=$(".form-body .col-md-6").toggle(true);$(".form-body .col-md-12 .draggable").each(function(i,el){$(this).remove().appendTo(i%2?$col[1]:$col[0])});$(".form-body .col-md-12").toggle(false)}});$("#copy-to-clipboard").on("click",function(){var $copy=$(".form-body").clone().appendTo(document.body);$copy.find(".tools, :hidden").remove();$.each(["draggable","droppable","sortable","dropped","ui-sortable","ui-draggable","ui-droppable","form-body"],function(i,c){$copy.find("."+c).removeClass(c).removeAttr("style")});var html=html_beautify($copy.html());$copy.remove();$modal=get_modal(html).modal("show");$modal.find(".btn").remove();$modal.find(".modal-title").html("复制HTML代码");$modal.find(":input:first").select().focus();return false})});var setup_draggable=function(){$(".draggable").draggable({appendTo:"body",helper:"clone"});$(".droppable").droppable({accept:".draggable",helper:"clone",hoverClass:"droppable-active",drop:function(event,ui){$(".empty-form").remove();var $orig=$(ui.draggable);if(!$(ui.draggable).hasClass("dropped")){var $el=$orig.clone().addClass("dropped").css({"position":"static","left":null,"right":null}).appendTo(this);var id=$orig.find(":input").attr("id");if(id){id=id.split("-").slice(0,-1).join("-")+"-"+(parseInt(id.split("-").slice(-1)[0])+1);$orig.find(":input").attr("id",id);$orig.find("label").attr("for",id)}$('<p class="tools col-sm-12 col-sm-offset-3">						<a class="edit-link">编辑HTML<a> | 						<a class="remove-link">移除</a></p>').appendTo($el)}else{if($(this)[0]!=$orig.parent()[0]){var $el=$orig.clone().css({"position":"static","left":null,"right":null}).appendTo(this);$orig.remove()}}}}).sortable()};var get_modal=function(content){var modal=$('<div class="modal" style="overflow: auto;" tabindex="-1">	<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><a type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</a><h4 class="modal-title">编辑HTML</h4></div><div class="modal-body ui-front">	<textarea class="form-control" 	style="min-height: 200px; margin-bottom: 10px;font-family: Monaco, Fixed">'+content+'</textarea><button class="btn btn-success">更新HTML</button></div>				</div></div></div>').appendTo(document.body);return modal};$(document).on("click",".edit-link",function(ev){var $el=$(this).parent().parent();var $el_copy=$el.clone();var $edit_btn=$el_copy.find(".edit-link").parent().remove();var $modal=get_modal(html_beautify($el_copy.html())).modal("show");$modal.find(":input:first").focus();$modal.find(".btn-success").click(function(ev2){var html=$modal.find("textarea").val();if(!html){$el.remove()}else{$el.html(html);$edit_btn.appendTo($el)}$modal.modal("hide");return false})});$(document).on("click",".remove-link",function(ev){$(this).parent().parent().remove()});
+    $(document).ready(function() {
+        setup_draggable();
+        $("#n-columns").on("change",
+            function() {
+                var v = $(this).val();
+                if (v === "1") {
+                    var $col = $(".form-body .col-md-12").toggle(true);
+                    $(".form-body .col-md-6 .draggable").each(function(i, el) {
+                        $(this).remove().appendTo($col)
+                    });
+                    $(".form-body .col-md-6").toggle(false)
+                } else {
+                    var $col = $(".form-body .col-md-6").toggle(true);
+                    $(".form-body .col-md-12 .draggable").each(function(i, el) {
+                        $(this).remove().appendTo(i % 2 ? $col[1] : $col[0])
+                    });
+                    $(".form-body .col-md-12").toggle(false)
+                }
+            });
+        $("#copy-to-clipboard").on("click",
+            function() {
+                var $copy = $(".form-body").clone().appendTo(document.body);
+                $copy.find(".tools, :hidden").remove();
+                $.each(["draggable", "droppable", "sortable", "dropped", "ui-sortable", "ui-draggable", "ui-droppable", "form-body"],
+                    function(i, c) {
+                        $copy.find("." + c).removeClass(c).removeAttr("style")
+                    });
+                var html = html_beautify($copy.html());
+                $copy.remove();
+                $modal = get_modal(html).modal("show");
+                $modal.find(".btn").remove();
+                $modal.find(".modal-title").html("复制HTML代码");
+                $modal.find(":input:first").select().focus();
+                return false
+            })
+    });
+    var setup_draggable = function() {
+        $(".draggable").draggable({
+            appendTo: "body",
+            helper: "clone"
+        });
+        $(".droppable").droppable({
+            accept: ".draggable",
+            helper: "clone",
+            hoverClass: "droppable-active",
+            drop: function(event, ui) {
+                $(".empty-form").remove();
+                var $orig = $(ui.draggable);
+                if (!$(ui.draggable).hasClass("dropped")) {
+                    var $el = $orig.clone().addClass("dropped").css({
+                        "position": "static",
+                        "left": null,
+                        "right": null
+                    }).appendTo(this);
+                    var id = $orig.find(":input").attr("id");
+                    if (id) {
+                        id = id.split("-").slice(0, -1).join("-") + "-" + (parseInt(id.split("-").slice( - 1)[0]) + 1);
+                        $orig.find(":input").attr("id", id);
+                        $orig.find("label").attr("for", id)
+                    }
+                    $('<p class="tools col-sm-12 col-sm-offset-3">						<a class="edit-link">编辑HTML<a> | 						<a class="remove-link">移除</a></p>').appendTo($el)
+                } else {
+                    if ($(this)[0] != $orig.parent()[0]) {
+                        var $el = $orig.clone().css({
+                            "position": "static",
+                            "left": null,
+                            "right": null
+                        }).appendTo(this);
+                        $orig.remove()
+                    }
+                }
+            }
+        }).sortable()
+    };
+    var get_modal = function(content) {
+        var modal = $('<div class="modal" style="overflow: auto;" tabindex="-1">	<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><a type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</a><h4 class="modal-title">编辑HTML</h4></div><div class="modal-body ui-front">	<textarea class="form-control" 	style="min-height: 200px; margin-bottom: 10px;font-family: Monaco, Fixed">' + content + '</textarea><button class="btn btn-success">更新HTML</button></div>				</div></div></div>').appendTo(document.body);
+        return modal
+    };
+    $(document).on("click", ".edit-link",
+        function(ev) {
+            var $el = $(this).parent().parent();
+            var $el_copy = $el.clone();
+            var $edit_btn = $el_copy.find(".edit-link").parent().remove();
+            var $modal = get_modal(html_beautify($el_copy.html())).modal("show");
+            $modal.find(":input:first").focus();
+            $modal.find(".btn-success").click(function(ev2) {
+                var html = $modal.find("textarea").val();
+                if (!html) {
+                    $el.remove()
+                } else {
+                    $el.html(html);
+                    $edit_btn.appendTo($el)
+                }
+                $modal.modal("hide");
+                return false
+            })
+        });
+    $(document).on("click", ".remove-link",
+        function(ev) {
+            $(this).parent().parent().remove()
+        });
 </script>
 </body>
 
